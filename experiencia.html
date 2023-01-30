@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> CV Leila Abduca</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style_ej.css">
   </head> 
 
   <body>
-   <script src="https://kit.fontawesome.com/0610ded2ef.js" crossorigin="anonymous"></script>
+   <script src="js/funciones.js"></script>
+  
    <div class="container">
    
     <div class="container">
@@ -30,25 +31,40 @@
             <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a></li>   
           </li>
         </ul>
-       </div> 
+    </div> 
 
-       <br><br>
-       
-    <div class="container">
-      <div class="row">   
-       <div class="col-12 p-3">
-        <div class="p-3 border bg-light">
+    <br><br>
+    <div class="col-12 p-3 border bg-light">
         <ul>
-          <li>Analista de datos. Dirección de Estadística. Ministerio de Turismo y Deportes</li>
-          <li>Analista de datos.Secretaría Nacional de Niñez, Adolescencia y Familia</li>
-          <li>Auxiliar de investigación.Programa de Investigación sobre Cambio Social, Instituto de Investigaciones Gino Germani, Facultad de Cs. Sociales (UBA). </li>
+          <li>Analista de datos. Dirección de Estadística. Ministerio de Turismo y Deportes.</li>
+          <li>Analista de datos. Secretaría Nacional de Niñez, Adolescencia y Familia.</li>
+          <li>Auxiliar de investigación. Programa de Investigación sobre Cambio Social. Instituto de Investigaciones Gino Germani, Facultad de Cs. Sociales (UBA). </li>
           <li>Docente en Taller de Investigación sobre Cambio Social. Carrera de Sociología. Facultad de Cs. Sociales (UBA).</li>
-          <ul>
-        </div>
-       
+        </ul>
+    </div>     
+    
+    <br>
+    
+    <div class="col-12 p-3 border bg-light">
+     <button type="button" onclick="document.getElementById('mostrar_publi').style.display='block'">Ver publicaciones</button>
+     </div>     
+         <div id="mostrar_publi" style="display:none" class="col-12 p-3 border bg-light">
+      <ul>
+        <li>Tablero interactivo desarrollado con shinyapp. <a href="https://tableros.yvera.tur.ar/turismo_internacional/" 
+          target="_blank">Ver acá</a></li>
+
+        <li>Relevamiento nacional sobre adolescentes en conflicto con la ley penal (2015). Equipo de investigación, procesamiento y redacción, 
+          Secretaría Nacional de Niñez, Adolescencia y Familia (SENAF) Fondo de las Naciones Unidas para la Infancia (UNICEF). 
+          <a href="https://www.unicef.org/argentina/media/1706/file/Adolescentes%20en%20conflicto%20con%20la%20Ley%20Penal,%202015.pdf" 
+          target="_blank">Ver acá </a></li>
+
+        <li>Encuesta sobre condiciones de vida de niñez y adolescencia (2013). Equipo de investigación, procesamiento y redacción, Ministerio de Desarrollo Social de la Nación y Fondo de las Naciones Unidas para la Infancia (UNICEF).
+          <a href="https://www.unicef.org/argentina/informes/encuesta-de-indicadores-m%C3%BAltiples-por-conglomerados-2011-2012"
+          target="_blank">Ver acá</a>
+        </li>
+        </ul>
+      
+  </div>     
   </div>
-</div>
-  
-   
-</body>
+  </body>
 </html>
